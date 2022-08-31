@@ -1,1 +1,0 @@
-# naya_hpc
