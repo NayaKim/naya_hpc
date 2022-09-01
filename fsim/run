@@ -1,0 +1,10 @@
+rm -f img_output_*
+ppm_2_ddr.exe 4 888 img_
+ncverilog +access+r -f files \
+          -timescale 1ns/1ps \
+      	  -sv
+ddr_2_ppm.exe 888 img_output_00
+ddr_2_ppm.exe 888 img_output_01
+ddr_2_ppm.exe 888 img_output_02
+ddr_2_ppm.exe 888 img_output_03
+
