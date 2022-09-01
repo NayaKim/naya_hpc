@@ -1,0 +1,7 @@
+rm -rf *.log
+rm -rf *.diag
+rm -rf wave
+rm -rf xcelium.d
+rm -rf INCA_libs
+rm -rf *.history
+rm -rf *.key

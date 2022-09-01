@@ -1,0 +1,18 @@
+// rtl source
+../rtl/ab21x_axemis_cluster_mmu.sv
+../rtl/ab21x_axemis_cluster_apb.sv
+../rtl/ab21x_axemis_cluster_defs.svh
+../rtl/ab21x_axemis_cluster_defs_port.svh
+../rtl/ab21x_axemis_cluster_defs_wire.svh
+../rtl/ab21x_axemis_cluster_defs_template.svh
+
+// lib source
+//../../../09.fpga/02.lib/mem/mem_s1440x8.v
+
+// models
+../model/simapb.v
+../model/simcrm.v
+../model/ab21_axim_example.v
+
+// tb
+./tb_top.v
